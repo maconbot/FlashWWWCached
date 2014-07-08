@@ -43,3 +43,5 @@ In response to WWW method I also found this:
 WWW.LoadFromCacheOrDownload is not supported for Flash export. Try downloading your asset bundle using WWW(bundlePath) instead.
 
 If that still doesn't work, make sure you're building your asset bundles for the correct platform (BuildTarget.FlashPlayer).
+
+note: http://www.yiiframework.com/doc-2.0/guide-assets.html
