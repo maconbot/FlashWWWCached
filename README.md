@@ -35,3 +35,11 @@ Member
 Messages:4
 the flash version of WWW seams to cache everything it downloads in browser, i test it in chrome and ie8.
 so the caching is done automatically, no need to do other work?
+
+
+In response to WWW method I also found this:
+
+
+WWW.LoadFromCacheOrDownload is not supported for Flash export. Try downloading your asset bundle using WWW(bundlePath) instead.
+
+If that still doesn't work, make sure you're building your asset bundles for the correct platform (BuildTarget.FlashPlayer).
